@@ -63,7 +63,7 @@ library(ggrepel)
 #opts$min_cells_met <- 5 # loci must have observations in this many cells
 #opts$min_cells_acc <- 5 # loci must have observations in this many cells
 
-opts$anno_regex <- "promoter|MCF7_ER_peaks|H3K27ac_peaks|body10000.bed|Repressed|Enhancer|CTCF"
+opts$anno_regex <- "promoters1000.bed|body1000.bed|AR_chip_Normal|AR_chip_Tumor"
 opts$gene_overlap_dist <- 1e5 # overlap annoations with genes within xx bp
 opts$min_weight_met <- 1
 opts$min_weight_acc <- 1

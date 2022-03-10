@@ -15,7 +15,7 @@ gtf_file:
 accBed:
   data/anno/promoters1000.bed
 metBed:
-  data/anno/promoters10000.bed
+  data/anno/promoters1000.bed
 bedtools:
   /home/groups/CEDAR/tools/bedtools
 cpg:
